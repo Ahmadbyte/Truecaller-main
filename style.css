@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('https://www.truecaller.com/cms/bf0879fe0f64b758ffb7f63a11f4823c.png');
+    background-repeat: no-repeat;
+    background-size :cover;
+
+}
+
+.img{
+    filter: invert();
+}
+.header {
+    background: #042d6b;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+   
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.header .logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.header .main-nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.header .main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header .main-nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header .main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .main-nav ul li a:hover {
+    color: #e8491d;
+}
+
+/* .blog-post {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+} */
+
+.blog-post {
+    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px; /* Adds rounded corners */
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+.blog-post .meta {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.blog-post video {
+    max-width: 80%;
+    height: 70vh;
+    display: block;
+    margin: 20px auto; /* Centering the video horizontally */
+    pointer-events: none; /* Prevents user interaction with the video */
+    opacity: 100%;
+}
+
+.post-content h3 {
+    margin-top: 20px;
+    color: #042d6b;
+}
+
+.post-content ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.footer {
+    background: #042d6b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+   
+}
